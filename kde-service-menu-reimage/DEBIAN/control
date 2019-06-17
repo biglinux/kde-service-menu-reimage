@@ -2,7 +2,7 @@ Package: kde-service-menu-reimage
 Version: 2.4.2
 Architecture: all
 Maintainer: Giuseppe Benigno <giuseppe.benigno@gmail.com>
-Installed-Size:112
+Installed-Size:312
 Depends: dolphin (>= 4) | konqueror (>= 4), imagemagick, jhead
 Section: kde
 Priority: optional
