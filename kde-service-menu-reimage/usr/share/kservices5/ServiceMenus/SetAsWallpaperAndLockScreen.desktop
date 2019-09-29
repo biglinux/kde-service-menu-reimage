@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/jpeg;image/png;image/svg+xml;
+Actions=SetAsWallpaperAndLockScreen;
+X-KDE-Priority=TopLevel
+X-KDE-StartupNotify=false
+Icon=image
+
+
+[Desktop Action SetAsWallpaperAndLockScreen]
+Icon=preferences-desktop-wallpaper
+Name=Set as wallpaper and lockScreen
+Name[pt]=Utilizar como papel de parede e na tela de bloqueio
+Name[es]=Establecer como fondo de pantalla y bloqueo
+Exec=qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript 'var allDesktops = desktops();print (allDesktops);for (i=0;i<allDesktops.length;i++) {d = allDesktops[i];d.wallpaperPlugin = "org.kde.image";d.currentConfigGroup = Array("Wallpaper", "org.kde.image", "General");d.writeConfig("Image", "%u")}'; kwriteconfig5 --file ~/.config/kscreenlockerrc --group Greeter --group Wallpaper --group org.kde.image --group General --key Image "%u"
