@@ -19,6 +19,7 @@
 [Desktop Entry]
 Actions=agif;append_right;_SEPARATOR_;gray;sepia;transparent2color;_SEPARATOR_;border;border_transparent;shadow;_SEPARATOR_;
 MimeType=image/*
+X-KDE-Priority=TopLevel
 Name=ReImage tools service menu
 ServiceTypes=KonqPopupMenu/Plugin,image/*
 TryExec=reimage-kdialog
