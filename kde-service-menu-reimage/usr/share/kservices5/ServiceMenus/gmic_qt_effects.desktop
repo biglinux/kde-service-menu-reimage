@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/*
+Actions=gmicQt;
+X-KDE-Priority=TopLevel
+X-KDE-StartupNotify=false
+Icon=tool_imageeffects
+
+
+[Desktop Action gmicQt]
+Icon=preferences-desktop-wallpaper
+Name=Add effects
+Name[pt]=Adicionar efeitos
+Name[es]=Añade efectos
+Exec=gmic_qt "%u"
