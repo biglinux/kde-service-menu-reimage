@@ -1,0 +1,39 @@
+# Maintainer: Bruno Goncalves <bigbruno@gmail.com>
+
+pkgname=kde-service-menu-reimage
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+arch=('any')
+license=('GPL')
+depends=('imagemagick' 'jhead' 'gmic')
+url="https://github.com/biglinux/kde-service-menu-reimage"
+pkgdesc="Manipulate images e their metadata.
+ kde-service-menu-reimage is a package that extends the functionalities of
+ Dolphin/Konqueror adding many additionally sensible menu, reachables with right
+ click on the files. These actions are related to picture files.
+ Copyright (C) 2018-2018 Giuseppe Benigno <giuseppe.benigno@gmail.com>"
+source=("git+https://github.com/biglinux/kde-service-menu-reimage.git")
+md5sums=(SKIP)
+
+package() {
+    # Verify default folder
+    if [ -d "${srcdir}/${pkgname}/${pkgname}" ]; then
+        InternalDir="${srcdir}/${pkgname}/${pkgname}"
+    else
+        InternalDir="${srcdir}/${pkgname}"
+    fi
+
+
+    # Copy files
+    if [ -d "${InternalDir}/usr" ]; then
+        cp -r "${InternalDir}/usr" "${pkgdir}/"
+    fi
+
+    if [ -d "${InternalDir}/etc" ]; then
+        cp -r "${InternalDir}/etc" "${pkgdir}/"
+    fi
+
+    if [ -d "${InternalDir}/opt" ]; then
+        cp -r "${InternalDir}/opt" "${pkgdir}/"
+    fi
+}
