@@ -5,7 +5,7 @@ pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
 license=('GPL')
-depends=('imagemagick' 'jhead' 'gmic')
+depends=('imagemagick' 'jhead')
 url="https://github.com/biglinux/kde-service-menu-reimage"
 pkgdesc="Manipulate images e their metadata.
  kde-service-menu-reimage is a package that extends the functionalities of
