@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
-MimeType=image/jpeg;image/png;image/svg+xml;
+MimeType=image/jpeg;image/png;image/svg+xml;image/avif;
 Actions=SetAsWallpaperAndLockScreen;
 X-KDE-Priority=TopLevel
 X-KDE-StartupNotify=false
