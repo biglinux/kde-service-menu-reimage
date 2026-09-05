@@ -17,7 +17,7 @@
 #
 
 [Desktop Entry]
-#X-KDE-Priority=TopLevel
+X-KDE-Priority=TopLevel
 Icon=edit-image
 Name=ReImage metadata service menu
 Type=Service
@@ -25,20 +25,20 @@ X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 MimeType=image/jpeg;image/tiff;
 TryExec=reimage-kdialog
 Actions=rfe;rff;_SEPARATOR_;sffe;sffn;_SEPARATOR_;seff;sefn;_SEPARATOR_;add-comment;view-metadata;extract-metadata;_SEPARATOR_;del-comment;del-exif;del-iptc;del-xmp;del-all;_SEPARATOR_;tfe;_SEPARATOR_;
-#X-KDE-Submenu=ReImage - Metadata
-#X-KDE-Submenu[ar]=ReImage - البيانات الوصفية
-#X-KDE-Submenu[it]=ReImage - Metadati
-#X-KDE-Submenu[ja]=ReImage - メタデータ
-#X-KDE-Submenu[pl]=ReImage - Metadane
-#X-KDE-Submenu[de]=ReImage - Metadaten
-#X-KDE-Submenu[eo]=ReImage - Metadatenoj
-#X-KDE-Submenu[fr]=ReImage - Métadonnées
-#X-KDE-Submenu[es]=ReImage - Metadatos
-#X-KDE-Submenu[pt]=ReImage - Metadados
-#X-KDE-Submenu[fa]=ReImage - متادیتا
-#X-KDE-Submenu[zh_CN]=ReImage - 元数据
-#X-KDE-Submenu[ru]=ReImage - Метаданные
-#X-KDE-Submenu[tr]=ReImage - Meta veriler
+X-KDE-Submenu=ReImage - Metadata
+X-KDE-Submenu[ar]=ReImage - البيانات الوصفية
+X-KDE-Submenu[it]=ReImage - Metadati
+X-KDE-Submenu[ja]=ReImage - メタデータ
+X-KDE-Submenu[pl]=ReImage - Metadane
+X-KDE-Submenu[de]=ReImage - Metadaten
+X-KDE-Submenu[eo]=ReImage - Metadatenoj
+X-KDE-Submenu[fr]=ReImage - Métadonnées
+X-KDE-Submenu[es]=ReImage - Metadatos
+X-KDE-Submenu[pt]=ReImage - Metadados
+X-KDE-Submenu[fa]=ReImage - متادیتا
+X-KDE-Submenu[zh_CN]=ReImage - 元数据
+X-KDE-Submenu[ru]=ReImage - Метаданные
+X-KDE-Submenu[tr]=ReImage - Meta veriler
 
 ################################################################################
 

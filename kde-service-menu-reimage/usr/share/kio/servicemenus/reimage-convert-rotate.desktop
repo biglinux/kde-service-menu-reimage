@@ -17,7 +17,7 @@
 #
 
 [Desktop Entry]
-#X-KDE-Priority=TopLevel
+X-KDE-Priority=TopLevel
 Icon=edit-image
 Name=ReImage convert and rotate service menu
 Type=Service
@@ -25,20 +25,20 @@ X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 MimeType=image/*
 TryExec=reimage-kdialog
 Actions=gif;jpeg;png;tiff;webp;_SEPARATOR_;pdf;pdfa;_SEPARATOR_;agif;favicons;base64;convert-custom;formats;_SEPARATOR_;rotate-90;rotate-180;rotate-270;rotate-custom;auto;_SEPARATOR_;flip;flop;_SEPARATOR_;
-#X-KDE-Submenu=ReImage - Convert and rotate
-#X-KDE-Submenu[ar]=ReImage - تحويل وتدوير
-#X-KDE-Submenu[it]=ReImage - Conversione e rotazione
-#X-KDE-Submenu[ja]=ReImage - 変換と回転
-#X-KDE-Submenu[pl]=ReImage - Konwersja i obracanie
-#X-KDE-Submenu[de]=ReImage - Konvertieren und Drehen
-#X-KDE-Submenu[eo]=ReImage - Konverti kaj rotacii
-#X-KDE-Submenu[fr]=ReImage - Conversion et rotation
-#X-KDE-Submenu[es]=ReImage - Convertir y girar
-#X-KDE-Submenu[pt]=ReImage - Converter e rodar
-#X-KDE-Submenu[fa]=ReImage - تبدیل و چرخش
-#X-KDE-Submenu[ru]=ReImage - Конвертация и поворот
-#X-KDE-Submenu[tr]=ReImage - Dönüştür ve döndür
-#X-KDE-Submenu[zh_CN]=ReImage - 转换与旋转
+X-KDE-Submenu=ReImage - Convert and rotate
+X-KDE-Submenu[ar]=ReImage - تحويل وتدوير
+X-KDE-Submenu[it]=ReImage - Conversione e rotazione
+X-KDE-Submenu[ja]=ReImage - 変換と回転
+X-KDE-Submenu[pl]=ReImage - Konwersja i obracanie
+X-KDE-Submenu[de]=ReImage - Konvertieren und Drehen
+X-KDE-Submenu[eo]=ReImage - Konverti kaj rotacii
+X-KDE-Submenu[fr]=ReImage - Conversion et rotation
+X-KDE-Submenu[es]=ReImage - Convertir y girar
+X-KDE-Submenu[pt]=ReImage - Converter e rodar
+X-KDE-Submenu[fa]=ReImage - تبدیل و چرخش
+X-KDE-Submenu[ru]=ReImage - Конвертация и поворот
+X-KDE-Submenu[tr]=ReImage - Dönüştür ve döndür
+X-KDE-Submenu[zh_CN]=ReImage - 转换与旋转
 
 ################################################################################
 

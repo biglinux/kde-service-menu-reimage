@@ -17,7 +17,7 @@
 #
 
 [Desktop Entry]
-#X-KDE-Priority=TopLevel
+X-KDE-Priority=TopLevel
 Icon=edit-image
 Name=ReImage compress and resize service menu
 Type=Service
@@ -25,20 +25,20 @@ X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 MimeType=image/*
 TryExec=reimage-kdialog
 Actions=progressive;optimize;_SEPARATOR_;compress-50;compress-70;compress-75;compress-80;compress-90;custom-compress;_SEPARATOR_;resize-25;resize-50;resize-75;_SEPARATOR_;resize-300x225;resize-600x450;resize-640x480;resize-800x600;resize-1024x768;resize-1200x630;resize-1200x900;resize-1400x1050;resize-1920x1080;custom-resize;_SEPARATOR_;
-#X-KDE-Submenu=ReImage - Compress and resize
-#X-KDE-Submenu[ar]=ReImage - ضغط وتغيير الحجم
-#X-KDE-Submenu[it]=ReImage - Compressione e ridimensionamento
-#X-KDE-Submenu[ja]=ReImage - 圧縮とリサイズ
-#X-KDE-Submenu[pl]=ReImage - Kompresja i zmiana rozmiaru
-#X-KDE-Submenu[de]=ReImage - Komprimieren und Größe ändern
-#X-KDE-Submenu[eo]=ReImage - Kunpremi kaj grandecŝanĝi
-#X-KDE-Submenu[fr]=ReImage - Compresser et redimensionner
-#X-KDE-Submenu[es]=ReImage - Comprimir y redimensionar
-#X-KDE-Submenu[pt]=ReImage - Comprimir e redimensionar
-#X-KDE-Submenu[fa]=ReImage - فشرده‌سازی و تغییر اندازه
-#X-KDE-Submenu[ru]=ReImage - Сжатие и изменение размера
-#X-KDE-Submenu[tr]=ReImage - Sıkıştır ve yeniden boyutlandır
-#X-KDE-Submenu[zh_CN]=ReImage - 压缩与调整大小
+X-KDE-Submenu=ReImage - Compress and resize
+X-KDE-Submenu[ar]=ReImage - ضغط وتغيير الحجم
+X-KDE-Submenu[it]=ReImage - Compressione e ridimensionamento
+X-KDE-Submenu[ja]=ReImage - 圧縮とリサイズ
+X-KDE-Submenu[pl]=ReImage - Kompresja i zmiana rozmiaru
+X-KDE-Submenu[de]=ReImage - Komprimieren und Größe ändern
+X-KDE-Submenu[eo]=ReImage - Kunpremi kaj grandecŝanĝi
+X-KDE-Submenu[fr]=ReImage - Compresser et redimensionner
+X-KDE-Submenu[es]=ReImage - Comprimir y redimensionar
+X-KDE-Submenu[pt]=ReImage - Comprimir e redimensionar
+X-KDE-Submenu[fa]=ReImage - فشرده‌سازی و تغییر اندازه
+X-KDE-Submenu[ru]=ReImage - Сжатие и изменение размера
+X-KDE-Submenu[tr]=ReImage - Sıkıştır ve yeniden boyutlandır
+X-KDE-Submenu[zh_CN]=ReImage - 压缩与调整大小
 
 ################################################################################
 
